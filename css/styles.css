@@ -1,162 +1,79 @@
 body {
-  margin: 1.5rem 15%;
+  background-color: #fff;
 }
 
-p {
-  font-size: small;
-}
-
-.about {
-  background-image: url(/images/fishnets-and-hearts.png);
-}
-
-.nav-bar {
-  margin: 1.8rem 15% 3rem;
-}
-
-.nav-btn {
-  background-color: #ee5c55 !important;
-  width: 8.5rem !important;
-  height: 2.5rem !important;
-  text-align: center !important;
-}
-
-.nav-btn-d {
-  color: black !important;
-  width: 8.5rem !important;
-  height: 2.5rem !important;
-  text-align: center !important;
-  margin-right: 10px;
-}
-/* .banner-img {
-  margin: 25px 2.5% 0px;
-  width: 80%;
-} */
-
-h1.header-text {
-  color: whitesmoke;
-  font-style: normal;
-  line-height: 1.5;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-}
-
-.head-sub-text {
-  margin-top: 20px;
-  line-height: 1.5;
-  font-size: medium;
-  text-align: center;
-  color: whitesmoke;
-}
-/* 
-.contain {
-  text-align: center;
-  position: absolute;
-  bottom: 2px;
-  width: 80%;
-}
-
-*/
-
-.about-zuri {
-  margin: 20px auto 5px;
-}
-
-.what-we-offer {
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-.what-we-offer::before {
-  content: "";
-  background-image: url(../images/Black_on_white_dotted_world_map_vector.jpg);
+header .hero {
+  height: 500px;
+  background-image: url("/images/banner-img1.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90%;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 210px;
-  left: 0px;
-  opacity: 0.22;
+  padding: 48px 0;
+  color: #fff;
 }
 
-.what-we-offer-div {
-  position: absolute;
-  bottom: opx;
+.hero-info {
+  width: 400px;
+  margin: 48px auto;
 }
-.four-col {
+
+.hero-info h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero-info a {
+  display: inline-block;
+}
+
+.offer {
+  background-image: url("/images/Black_on_white_dotted_world_map_vector.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 100px;
+}
+
+section.offer .card {
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.card h6 {
+  font-weight: 700;
+}
+
+section.offer .mentors {
+  background: rgba(47, 0, 255, 0.3);
+}
+
+section.contact {
+  background: green;
+}
+
+#move {
+  width: 300px;
+}
+
+section.contact h1 {
+  font-weight: 700;
+}
+
+section.contact .card {
+  border: 1px solid blue;
+  background-color: blue;
+  border-radius: 12px;
+}
+
+footer {
+  background: red;
+}
+
+footer i {
+  background: #fff;
+  padding: 8px;
+}
+
+footer .copy {
+  background-color: #fff;
   text-align: center;
-  margin-top: 10px;
-}
-
-.four-items {
-  margin: 0 7px 14px;
-  background-color: #3edad8 !important;
-  color: black;
-}
-
-.we-offer-p {
-  font-size: small;
-  margin-bottom: 0;
-}
-.four-items-p {
-  font-size: small !important;
-  margin: 5px 18px 40px !important;
-}
-
-.four-items-h {
-  font-weight: 600 !important;
-  font-size: small !important;
-  margin: 5px 10px !important;
-}
-
-.four-items-btn {
-  margin-top: 45px;
-  background-color: #ee5c55 !important;
-  width: 9.5rem !important;
-  height: 2.5rem !important;
-  text-align: center !important;
-}
-
-.btn-header {
-  margin-top: 50px;
-  background-color: #ee5c55 !important;
-  width: 9.5rem !important;
-  height: 2.5rem !important;
-  text-align: center !important;
-}
-
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.about-text {
-  text-align: center;
-  margin: 30px auto;
-  line-height: 1.5;
-}
-
-.offer-text {
-  line-height: 1.5;
-  text-align: center;
-  margin: 50px auto 20px;
-}
-
-/* profile slider img */
-.check {
-  color: black;
-  background-color: #ee5c55 !important;
+  padding: 16px 0;
 }
